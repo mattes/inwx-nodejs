@@ -18,7 +18,6 @@
 , "main" : "./lib/inwx.js"
 , "dependencies" : {
     "xmlrpc"    : ">=1.0.2"
-   ,"sql-parser": "0.4.x"
   }
 , "engines" : {
     "node" : ">=0.4",
@@ -26,7 +25,7 @@
   }
 , "licenses" : [ {
       "type" : "MIT"
-    , "url" : "https://github.com/mattes/nodejs-inwx/raw/master/LICENSE"
+    , "url" : "https://raw.github.com/mattes/inwx-nodejs/master/LICENSE"
     }
   ]
 }
