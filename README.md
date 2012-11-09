@@ -5,7 +5,12 @@ A Node.js client to connect to [inwx](https://www.inwx.de) XML-RPC API.
 
 Installation
 ------------
-    npm install inwx
+    npm install inwx !!! npm package currently broken, see below
+
+Issue with node-xmlrpc
+----------------------
+
+[node-xmlrpc](https://github.com/baalexander/node-xmlrpc) currently does not support cookies. There is a fork which has cookie support built-in: https://github.com/AlexeyGrishin/node-xmlrpc. Use this fork as replacement for the official node-xmlrpc npm package. A pull request already exists: https://github.com/baalexander/node-xmlrpc/pull/55.
 
 Official Documentation from InternetWorX
 ----------------------------------------
