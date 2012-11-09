@@ -1,7 +1,7 @@
 inwx-nodejs
 ===========
 
-INWX XML-RPC API Client for NodeJS
+A Node.js client to connect to [inwx](https://www.inwx.de) XML-RPC API.
 
 Installation
 ------------
@@ -11,6 +11,11 @@ Official Documentation from InternetWorX
 ----------------------------------------
  * https://www.inwx.de/de/help#key=20
  * https://www.inwx.de/de/download/file/api-current.zip (logged in inwx customers only)
+
+Prerequisites
+-------------
+ * Create a new account at https://ote.inwx.de for usage with the testing api. You need to create a new account, even if you already registered at the real inwx website.
+ * For production api, you need an account at https://www.inwx.de
 
 Usage
 -----
