@@ -53,7 +53,7 @@ inwx({api: "testing", user: "max123", password: "pass123"}, function(api){
     console.log(response);
   });   
 
-  api.close(); // logout 
+  // api.close(); // logout 
 });
 
 ```
