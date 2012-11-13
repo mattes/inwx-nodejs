@@ -17,10 +17,10 @@
   }
 , "main" : "./lib/inwx.js"
 , "dependencies" : {
-    "xmlrpc"    : ">=1.0.2"
+    "xmlrpc"    : ">=1.1.0"
   }
 , "engines" : {
-    "node" : ">=0.4",
+    "node" : ">=0.8",
     "npm" : ">=1.0.0"
   }
 , "licenses" : [ {
