@@ -33,6 +33,8 @@ inwx({api: "testing", user: "max123", password: "pass123"}, function(api){
     console.log(response);
   });
 
+  // SOA serial numbers are updated by INWX automatically!
+
   // create record in nameserver set and delete again
   // using helper methods
   // make sure the nameserver for example.com already exists!!
