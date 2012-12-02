@@ -9,13 +9,13 @@ Installation
 
 Official Documentation from InternetWorX
 ----------------------------------------
- * https://www.inwx.de/de/help#key=20
- * https://www.inwx.de/de/download/file/api-current.zip (logged in inwx customers only)
+ * http://www.inwx.de/de/offer/api
+ * http://www.inwx.de/de/download/file/filename/docbook.pdf (logged-in inwx customers only)
 
 Prerequisites
 -------------
- * Create a new account at https://ote.inwx.de for usage with the testing api. You need to create a new account, even if you already registered at the real inwx website.
- * For production api, you need an account at https://www.inwx.de
+ * For the production API, you need an account at https://www.inwx.de
+ * For the testing API, register a new account at https://ote.inwx.de. You won't be able to use your standard credentials from inwx.de!
 
 Usage
 -----
@@ -53,10 +53,14 @@ inwx({api: "testing", user: "max123", password: "pass123"}, function(api){
     console.log(response);
   });   
 
+  // be aware that calls are made asynchronously! call api.close() when all other calls terminated.
   // api.close(); // logout 
 });
 
 ```
+
+See example.js for more examples.
+
 
 License (MIT)
 -------------
