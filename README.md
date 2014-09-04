@@ -9,8 +9,7 @@ Installation
 
 Official Documentation from InternetWorX
 ----------------------------------------
- * http://www.inwx.de/de/offer/api
- * http://www.inwx.de/de/download/file/filename/docbook.pdf (logged-in inwx customers only)
+You can view a detailed description of the API functions in our documentation. The documentation as PDF ist part of the Projekt. You also can read the documentation online http://www.inwx.de/en/help/apidoc
 
 Prerequisites
 -------------
